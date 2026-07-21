@@ -15,43 +15,48 @@
 
 ## 課程地圖
 
+### 入門工具
+| Notebook | 主題 | 核心論文 |
+|----------|------|----------|
+| [00_pandas_matplotlib](00_pandas_matplotlib.ipynb) | pandas 與資料視覺化：用股市資料學工具 | — |
+
 ### Part 0：為什麼散戶會虧錢？
 | Notebook | 主題 | 核心論文 |
 |----------|------|----------|
-| [00_intro](00_intro.ipynb) | 課程導覽與環境確認 | — |
-| [01_behavioral_finance](01_behavioral_finance.ipynb) | 行為金融：散戶的七大認知偏誤 | Kahneman & Tversky (1979)；Odean (1998)；Barber & Odean (2000) |
+| [01_intro](01_intro.ipynb) | 課程導覽與環境確認 | — |
+| [02_behavioral_finance](02_behavioral_finance.ipynb) | 行為金融：散戶的七大認知偏誤 | Kahneman & Tversky (1979)；Odean (1998)；Barber & Odean (2000) |
 
 ### Part 1：市場如何定價？
 | Notebook | 主題 | 核心論文 |
 |----------|------|----------|
-| [02_shiller_cape](02_shiller_cape.ipynb) | CAPE 與長期報酬預測 | Shiller (2000) |
-| [03_damodaran](03_damodaran.ipynb) | 行業估值數據庫 | Damodaran (年度更新) |
-| [04_capm_reality](04_capm_reality.ipynb) | CAPM 的現實 & BAB | Black, Jensen & Scholes (1972)；Frazzini & Pedersen (2014) |
+| [03_shiller_cape](03_shiller_cape.ipynb) | CAPE 與長期報酬預測 | Shiller (2000) |
+| [04_damodaran](04_damodaran.ipynb) | 行業估值數據庫 | Damodaran (年度更新) |
+| [05_capm_reality](05_capm_reality.ipynb) | CAPM 的現實 & BAB | Black, Jensen & Scholes (1972)；Frazzini & Pedersen (2014) |
 
 ### Part 2：個人理財決策
 | Notebook | 主題 | 核心論文 |
 |----------|------|----------|
-| [05_trinity_study](05_trinity_study.ipynb) | 4% 退休提領法則 | Bengen (1994)；Cooley et al. (1998) |
-| [06_dca_vs_lumpsum](06_dca_vs_lumpsum.ipynb) | 定期定額 vs 單筆投入 | Vanguard (2012) |
+| [06_trinity_study](06_trinity_study.ipynb) | 4% 退休提領法則 | Bengen (1994)；Cooley et al. (1998) |
+| [07_dca_vs_lumpsum](07_dca_vs_lumpsum.ipynb) | 定期定額 vs 單筆投入 | Vanguard (2012) |
 
 ### Part 3：市場異象
 | Notebook | 主題 | 核心論文 |
 |----------|------|----------|
-| [07_january_effect](07_january_effect.ipynb) | 月份效應：一月效應與賣在五月 | Rozeff & Kinney (1976) |
-| [08_factor_zoo](08_factor_zoo.ipynb) | 因子動物園與多重檢定問題 | Harvey, Liu & Zhu (2016) |
+| [08_january_effect](08_january_effect.ipynb) | 月份效應：一月效應與賣在五月 | Rozeff & Kinney (1976) |
+| [09_factor_zoo](09_factor_zoo.ipynb) | 因子動物園與多重檢定問題 | Harvey, Liu & Zhu (2016) |
 
 ### Part 4：因子投資
 | Notebook | 主題 | 核心論文 |
 |----------|------|----------|
-| [09_fama_french](09_fama_french.ipynb) | 三因子模型：規模、價值、動能 | Fama & French (1993) |
-| [10_ff5_quality](10_ff5_quality.ipynb) | 五因子：品質與保守投資 | Fama & French (2015) |
-| [11_momentum](11_momentum.ipynb) | 動能效應：強者恆強 | Jegadeesh & Titman (1993) |
+| [10_fama_french](10_fama_french.ipynb) | 三因子模型：規模、價值、動能 | Fama & French (1993) |
+| [11_ff5_quality](11_ff5_quality.ipynb) | 五因子：品質與保守投資 | Fama & French (2015) |
+| [12_momentum](12_momentum.ipynb) | 動能效應：強者恆強 | Jegadeesh & Titman (1993) |
 
 ### 附錄
 | Notebook | 主題 | 用途 |
 |----------|------|------|
-| [12_fire_calculator](12_fire_calculator.ipynb) | 財務自由計算機 & 指標速查 | 代入個人數字；CAPE/P/E 市場溫度計 |
-| [13_conclusion](13_conclusion.ipynb) | 投資結論：把學術研究變成行動指南 | 課程總整理；四條人生軌跡模擬；個人投資評分 |
+| [13_fire_calculator](13_fire_calculator.ipynb) | 財務自由計算機 & 指標速查 | 代入個人數字；CAPE/P/E 市場溫度計 |
+| [14_conclusion](14_conclusion.ipynb) | 投資結論：把學術研究變成行動指南 | 課程總整理；四條人生軌跡模擬；個人投資評分 |
 
 ---
 
@@ -82,20 +87,21 @@ jupyter notebook 00_intro.ipynb
 
 ```
 學術研究_教材/
-├── 00_intro.ipynb
-├── 01_behavioral_finance.ipynb
-├── 02_shiller_cape.ipynb
-├── 03_damodaran.ipynb
-├── 04_capm_reality.ipynb
-├── 05_trinity_study.ipynb
-├── 06_dca_vs_lumpsum.ipynb
-├── 07_january_effect.ipynb
-├── 08_factor_zoo.ipynb
-├── 09_fama_french.ipynb
-├── 10_ff5_quality.ipynb
-├── 11_momentum.ipynb
-├── 12_fire_calculator.ipynb
-├── 13_conclusion.ipynb
+├── 00_pandas_matplotlib.ipynb
+├── 01_intro.ipynb
+├── 02_behavioral_finance.ipynb
+├── 03_shiller_cape.ipynb
+├── 04_damodaran.ipynb
+├── 05_capm_reality.ipynb
+├── 06_trinity_study.ipynb
+├── 07_dca_vs_lumpsum.ipynb
+├── 08_january_effect.ipynb
+├── 09_factor_zoo.ipynb
+├── 10_fama_french.ipynb
+├── 11_ff5_quality.ipynb
+├── 12_momentum.ipynb
+├── 13_fire_calculator.ipynb
+├── 14_conclusion.ipynb
 ├── data/                 ← 快取數據（執行時自動下載）
 └── scripts/              ← Notebook 生成腳本
 ```
