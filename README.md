@@ -94,6 +94,8 @@ jupyter notebook 00_intro.ipynb
 ├── 09_fama_french.ipynb
 ├── 10_ff5_quality.ipynb
 ├── 11_momentum.ipynb
+├── 12_fire_calculator.ipynb
+├── 13_conclusion.ipynb
 ├── data/                 ← 快取數據（執行時自動下載）
 └── scripts/              ← Notebook 生成腳本
 ```
@@ -130,17 +132,6 @@ jupyter notebook 00_intro.ipynb
 就自己做了一套。
 
 📬 聯絡：[chengyustudy0914@gmail.com](mailto:chengyustudy0914@gmail.com) 或開 [GitHub Issue](../../issues) 討論。
-
----
-
-## 引用本課程
-
-如果這份課程對你的研究或教學有幫助，歡迎引用：
-
-```
-蔡晟郁 (2025). 實證金融學：從學術研究到個人投資 [Empirical Finance: From Academic Research to Personal Investment].
-GitHub. https://github.com/leotsai940914/empirical-finance-tw
-```
 
 ---
 
