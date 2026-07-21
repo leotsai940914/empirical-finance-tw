@@ -16,39 +16,39 @@
 
 ## 課程地圖
 
-### 🧠 Part 0：為什麼散戶會虧錢？
+### Part 0：為什麼散戶會虧錢？
 | Notebook | 主題 | 核心論文 |
 |----------|------|----------|
 | [00_intro](00_intro.ipynb) | 課程導覽與環境確認 | — |
 | [01_behavioral_finance](01_behavioral_finance.ipynb) | 行為金融：散戶的七大認知偏誤 | Kahneman & Tversky (1979)；Odean (1998)；Barber & Odean (2000) |
 
-### 📊 Part 1：市場如何定價？
+### Part 1：市場如何定價？
 | Notebook | 主題 | 核心論文 |
 |----------|------|----------|
 | [02_shiller_cape](02_shiller_cape.ipynb) | CAPE 與長期報酬預測 | Shiller (2000) |
 | [03_damodaran](03_damodaran.ipynb) | 行業估值數據庫 | Damodaran (年度更新) |
 | [04_capm_reality](04_capm_reality.ipynb) | CAPM 的現實 & BAB | Black, Jensen & Scholes (1972)；Frazzini & Pedersen (2014) |
 
-### 💰 Part 2：個人理財決策
+### Part 2：個人理財決策
 | Notebook | 主題 | 核心論文 |
 |----------|------|----------|
 | [05_trinity_study](05_trinity_study.ipynb) | 4% 退休提領法則 | Bengen (1994)；Cooley et al. (1998) |
 | [06_dca_vs_lumpsum](06_dca_vs_lumpsum.ipynb) | 定期定額 vs 單筆投入 | Vanguard (2012) |
 
-### 🔬 Part 3：市場異象
+### Part 3：市場異象
 | Notebook | 主題 | 核心論文 |
 |----------|------|----------|
 | [07_january_effect](07_january_effect.ipynb) | 月份效應：一月效應與賣在五月 | Rozeff & Kinney (1976) |
 | [08_factor_zoo](08_factor_zoo.ipynb) | 因子動物園與多重檢定問題 | Harvey, Liu & Zhu (2016) |
 
-### 📈 Part 4：因子投資
+### Part 4：因子投資
 | Notebook | 主題 | 核心論文 |
 |----------|------|----------|
 | [09_fama_french](09_fama_french.ipynb) | 三因子模型：規模、價值、動能 | Fama & French (1993) |
 | [10_ff5_quality](10_ff5_quality.ipynb) | 五因子：品質與保守投資 | Fama & French (2015) |
 | [11_momentum](11_momentum.ipynb) | 動能效應：強者恆強 | Jegadeesh & Titman (1993) |
 
-### 🛠️ 附錄：個人工具箱 & 結論
+### 附錄
 | Notebook | 主題 | 用途 |
 |----------|------|------|
 | [12_fire_calculator](12_fire_calculator.ipynb) | 財務自由計算機 & 指標速查 | 代入個人數字；CAPE/P/E 市場溫度計 |
