@@ -128,9 +128,9 @@ jupyter notebook 00_intro.ipynb
 **蔡晟郁 (Cheng-Yu Tsai)**  
 國立中央大學 經濟學系
 
-這份課程從「台灣沒有人用中文把學術論文和個人投資決策串起來」這個缺口出發，
-嘗試讓 Kahneman、Fama、Shiller 的研究不再只是教科書裡的名字，
-而是能真正改變投資決策的工具。
+上課時發現 Fama、Shiller 這些人的研究很有用，
+但從來沒人用中文把它們跟實際投資決策接起來。
+就自己做了一套。
 
 📬 聯絡：[chengyustudy0914@gmail.com](mailto:chengyustudy0914@gmail.com) 或開 [GitHub Issue](../../issues) 討論。
 
