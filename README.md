@@ -7,10 +7,9 @@
 > **For international visitors:** This is a Traditional Chinese empirical finance course for Taiwanese investors — 13 Jupyter Notebooks covering behavioral finance, market valuation, factor investing (Fama-French), and personal financial planning. Each notebook connects Nobel Prize-winning research (Kahneman, Fama, Shiller) to real investment decisions, with Taiwan-specific data and examples. Feel free to star, fork, or open an issue in English.
 
 用真實數據驗證每一個你聽過的金融「常識」。  
-13 本 Jupyter Notebook，涵蓋行為金融、市場估值、個人理財、因子投資四大主題——從諾貝爾獎論文到台灣個人投資決策的完整橋樑。
+13 本 Jupyter Notebook，從行為金融到因子投資，每個結論都有論文出處和可以自己跑的程式碼。
 
-> **給誰看的？** 有基礎 Python 能力、對投資有興趣但討厭「感覺派」建議的學習者。
-> 每一個結論，都有論文出處和可重現的程式碼。
+有基礎 Python 能力、對投資有興趣但討厭「感覺派」建議的人，應該會喜歡這個。
 
 ---
 
@@ -113,13 +112,11 @@ jupyter notebook 00_intro.ipynb
 
 ---
 
-## 每本 Notebook 的統一格式
+## 貢獻與更新
 
-1. **學習目標** — 三條具體的學習成果
-2. **學術背景** — 論文、數據來源、核心問題
-3. **實證分析** — Python 程式碼 + 視覺化圖表
-4. **這跟你有什麼關係？** — 連結個人投資決策的具體建議
-5. **本章重點摘要** — 帶走清單 + 下一章預告
+這個 repo 我會持續更新——遇到有趣的實證研究就會加進來。
+
+如果你有想新增的主題、發現哪裡的數據或邏輯有問題，或是想一起維護，歡迎開 Issue 或送 PR。沒有門檻，中英文都可以。
 
 ---
 
@@ -142,7 +139,7 @@ jupyter notebook 00_intro.ipynb
 
 ```
 蔡晟郁 (2025). 實證金融學：從學術研究到個人投資 [Empirical Finance: From Academic Research to Personal Investment].
-GitHub. https://github.com/tsaichengyu/empirical-finance-tw
+GitHub. https://github.com/leotsai940914/empirical-finance-tw
 ```
 
 ---
