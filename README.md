@@ -1,0 +1,161 @@
+# 實證金融學：從學術研究到個人投資
+
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
+
+> **For international visitors:** This is a Traditional Chinese empirical finance course for Taiwanese investors — 13 Jupyter Notebooks covering behavioral finance, market valuation, factor investing (Fama-French), and personal financial planning. Each notebook connects Nobel Prize-winning research (Kahneman, Fama, Shiller) to real investment decisions, with Taiwan-specific data and examples. Feel free to star, fork, or open an issue in English.
+
+用真實數據驗證每一個你聽過的金融「常識」。  
+13 本 Jupyter Notebook，涵蓋行為金融、市場估值、個人理財、因子投資四大主題——從諾貝爾獎論文到台灣個人投資決策的完整橋樑。
+
+> **給誰看的？** 有基礎 Python 能力、對投資有興趣但討厭「感覺派」建議的學習者。
+> 每一個結論，都有論文出處和可重現的程式碼。
+
+---
+
+## 課程地圖
+
+### 🧠 Part 0：為什麼散戶會虧錢？
+| Notebook | 主題 | 核心論文 |
+|----------|------|----------|
+| [00_intro](00_intro.ipynb) | 課程導覽與環境確認 | — |
+| [01_behavioral_finance](01_behavioral_finance.ipynb) | 行為金融：散戶的七大認知偏誤 | Kahneman & Tversky (1979)；Odean (1998)；Barber & Odean (2000) |
+
+### 📊 Part 1：市場如何定價？
+| Notebook | 主題 | 核心論文 |
+|----------|------|----------|
+| [02_shiller_cape](02_shiller_cape.ipynb) | CAPE 與長期報酬預測 | Shiller (2000) |
+| [03_damodaran](03_damodaran.ipynb) | 行業估值數據庫 | Damodaran (年度更新) |
+| [04_capm_reality](04_capm_reality.ipynb) | CAPM 的現實 & BAB | Black, Jensen & Scholes (1972)；Frazzini & Pedersen (2014) |
+
+### 💰 Part 2：個人理財決策
+| Notebook | 主題 | 核心論文 |
+|----------|------|----------|
+| [05_trinity_study](05_trinity_study.ipynb) | 4% 退休提領法則 | Bengen (1994)；Cooley et al. (1998) |
+| [06_dca_vs_lumpsum](06_dca_vs_lumpsum.ipynb) | 定期定額 vs 單筆投入 | Vanguard (2012) |
+
+### 🔬 Part 3：市場異象
+| Notebook | 主題 | 核心論文 |
+|----------|------|----------|
+| [07_january_effect](07_january_effect.ipynb) | 月份效應：一月效應與賣在五月 | Rozeff & Kinney (1976) |
+| [08_factor_zoo](08_factor_zoo.ipynb) | 因子動物園與多重檢定問題 | Harvey, Liu & Zhu (2016) |
+
+### 📈 Part 4：因子投資
+| Notebook | 主題 | 核心論文 |
+|----------|------|----------|
+| [09_fama_french](09_fama_french.ipynb) | 三因子模型：規模、價值、動能 | Fama & French (1993) |
+| [10_ff5_quality](10_ff5_quality.ipynb) | 五因子：品質與保守投資 | Fama & French (2015) |
+| [11_momentum](11_momentum.ipynb) | 動能效應：強者恆強 | Jegadeesh & Titman (1993) |
+
+### 🛠️ 附錄：個人工具箱 & 結論
+| Notebook | 主題 | 用途 |
+|----------|------|------|
+| [12_fire_calculator](12_fire_calculator.ipynb) | 財務自由計算機 & 指標速查 | 代入個人數字；CAPE/P/E 市場溫度計 |
+| [13_conclusion](13_conclusion.ipynb) | 投資結論：把學術研究變成行動指南 | 課程總整理；四條人生軌跡模擬；個人投資評分 |
+
+---
+
+## 快速開始
+
+```bash
+# 安裝必要套件
+pip install numpy pandas matplotlib scipy pandas-datareader openpyxl yfinance
+
+# 啟動課程（從這裡開始）
+jupyter notebook 00_intro.ipynb
+```
+
+---
+
+## 建議學習路徑
+
+```
+入門者    → 00 → 01 → 05 → 06 → 02
+理論型    → 00 → 01 → 04 → 08 → 09 → 10 → 11
+實務型    → 00 → 01 → 02 → 03 → 05 → 10
+完整課程  → 00 → 01 → 02 → ... → 11
+```
+
+---
+
+## 目錄結構
+
+```
+學術研究_教材/
+├── 00_intro.ipynb
+├── 01_behavioral_finance.ipynb
+├── 02_shiller_cape.ipynb
+├── 03_damodaran.ipynb
+├── 04_capm_reality.ipynb
+├── 05_trinity_study.ipynb
+├── 06_dca_vs_lumpsum.ipynb
+├── 07_january_effect.ipynb
+├── 08_factor_zoo.ipynb
+├── 09_fama_french.ipynb
+├── 10_ff5_quality.ipynb
+├── 11_momentum.ipynb
+├── data/                 ← 快取數據（執行時自動下載）
+└── scripts/              ← Notebook 生成腳本
+```
+
+---
+
+## 數據來源
+
+| 數據集 | 來源 | 時間範圍 | 用於 |
+|--------|------|----------|------|
+| Shiller CAPE | Robert Shiller (Yale) | 1871–今 | 02 |
+| Fama-French 因子 | Kenneth French Data Library | 1926–今 | 04, 08, 09, 10, 11 |
+| 行業估值 | Damodaran (NYU Stern) | 最新年度 | 03 |
+| Odean 券商帳戶統計 | 論文公開數據（Table 1, 3, 5） | 1987–1993 | 01 |
+| Barber & Odean 分組數據 | 論文公開數據（Table IV, V） | 1991–1997 | 01 |
+
+---
+
+## 每本 Notebook 的統一格式
+
+1. **學習目標** — 三條具體的學習成果
+2. **學術背景** — 論文、數據來源、核心問題
+3. **實證分析** — Python 程式碼 + 視覺化圖表
+4. **這跟你有什麼關係？** — 連結個人投資決策的具體建議
+5. **本章重點摘要** — 帶走清單 + 下一章預告
+
+---
+
+## 關於作者
+
+**蔡晟郁 (Cheng-Yu Tsai)**  
+國立中央大學 經濟學系
+
+這份課程從「台灣沒有人用中文把學術論文和個人投資決策串起來」這個缺口出發，
+嘗試讓 Kahneman、Fama、Shiller 的研究不再只是教科書裡的名字，
+而是能真正改變投資決策的工具。
+
+📬 聯絡：[chengyustudy0914@gmail.com](mailto:chengyustudy0914@gmail.com) 或開 [GitHub Issue](../../issues) 討論。
+
+---
+
+## 引用本課程
+
+如果這份課程對你的研究或教學有幫助，歡迎引用：
+
+```
+蔡晟郁 (2025). 實證金融學：從學術研究到個人投資 [Empirical Finance: From Academic Research to Personal Investment].
+GitHub. https://github.com/tsaichengyu/empirical-finance-tw
+```
+
+---
+
+## 免責聲明
+
+本課程純屬教育用途，所有內容僅供學習參考，**不構成任何投資建議**。
+投資有風險，請依據個人財務狀況自行評估，作者不對任何投資損失負責。
+
+---
+
+## 授權
+
+本課程採用 [CC BY-NC 4.0](LICENSE) 授權：  
+✅ 可以分享與改作（須署名）  
+❌ 不得用於商業目的
