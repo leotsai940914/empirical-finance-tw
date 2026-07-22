@@ -4,10 +4,10 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
 
-> **For international visitors:** This is a Traditional Chinese empirical finance course for Taiwanese investors — 15 Jupyter Notebooks covering pandas/matplotlib basics, behavioral finance, market valuation, factor investing (Fama-French), and personal financial planning. Each notebook connects Nobel Prize-winning research (Kahneman, Fama, Shiller) to real investment decisions, with Taiwan-specific data and examples. Feel free to star, fork, or open an issue in English.
+> **For international visitors:** This is a Traditional Chinese empirical finance course for Taiwanese investors — Jupyter Notebooks covering pandas/matplotlib basics, behavioral finance, market valuation, factor investing (Fama-French), and personal financial planning. Each notebook connects Nobel Prize-winning research (Kahneman, Fama, Shiller) to real investment decisions, with Taiwan-specific data and examples. Feel free to star, fork, or open an issue in English.
 
 用真實數據驗證每一個你聽過的金融「常識」。  
-15 本 Jupyter Notebook，從 pandas 工具熱身到因子投資，每個結論都有論文出處和可以自己跑的程式碼。
+從 pandas 工具熱身到因子投資，每個結論都有論文出處和可以自己跑的程式碼。
 
 有基礎 Python 能力、對投資有興趣但討厭「感覺派」建議的人，應該會喜歡這個。
 
